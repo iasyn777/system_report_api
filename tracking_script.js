@@ -6,6 +6,7 @@ if (!sessionId) {
 
 
 async function trackVisit() {
+    
     try {
         await fetch('/template/Partsix/partsix/tracking/track_users.php', {
             method: 'POST',

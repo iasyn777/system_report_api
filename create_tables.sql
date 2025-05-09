@@ -1,3 +1,4 @@
+//создание таблицы в базе данных
 CREATE TABLE system_reports (
     id INT AUTO_INCREMENT PRIMARY KEY,
     session_id VARCHAR(255) NOT NULL,
