@@ -1,5 +1,6 @@
 <?php
 //подключение к базе данных
+
 $host = 'localhost';
 $db   = 'coffeegrainy_shop';
 $user = 'coffeegrainy_ibragimov_i';

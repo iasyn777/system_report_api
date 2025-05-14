@@ -6,7 +6,7 @@ if (!sessionId) {
 
 
 async function trackVisit() {
-    
+
     try {
         await fetch('/template/Partsix/partsix/tracking/track_users.php', {
             method: 'POST',
@@ -24,4 +24,5 @@ async function trackVisit() {
         console.error('Tracking error:', error);
     }
 }
+
 document.addEventListener('DOMContentLoaded', trackVisit);
